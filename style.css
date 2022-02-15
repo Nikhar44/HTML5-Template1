@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    
+}
+.Headname{
+    background-color: rgb(39, 37, 37);
+    float: left;
+    width: 100%;
+}
+.Headname h1{
+    padding: 2%;
+    color: white;
+}
+.link{
+    background-color: rgb(78, 76, 76);
+    float: left;
+    width: 100%;
+}
+.link ul{
+    padding-left: 0%;
+}
+.link ul li{
+    list-style: none;
+    float: left;
+    padding: 1%;
+    border: 1px solid black;
+    color: white;
+}
+.leftcontent{
+    float: left;
+    width: 70%;
+    padding-top: 2%;
+    height: 100vh;
+    background-color: white;
+}
+.leftcontent .imgc{
+    background-color: lightgray;
+    float: left;
+    width: 20%;
+    height: 50%;
+    overflow: hidden;
+}
+.leftcontent .imgc img{
+    height: 140px;
+    width: 200px;
+}
+.leftcontent .para{
+    float: right;
+    width: 70%;
+    height: 100%;
+}
+.leftcontent1, .leftcontent2, .leftcontent3{
+    float: left;
+    padding: 2%;
+}
+.Rightcontent{
+    float: right;
+    width: 30%;
+    padding-top: 2%;
+    background-color: grey;
+    height: 100vh;
+}
+.Rightcontent1 li{
+    padding-top: 3%;
+}
+.Rightcontent2 {
+    padding-top: 5%;
+}
+.Rightcontent2 p{
+    padding: 7%;
+    text-align: justify;
+}
+h3{
+    padding-left: 5%;
+}
+footer{
+    background-color: rgb(39, 37, 37);
+    clear: both;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+#Readmore{
+    color: orangered;
+}
+#txt1{
+    color: orangered;
+    font-size: 110%;
+}
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: lightgrey;
+}
+/*for mobile phone display*/
+@media(max-width:980px){
+    body{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .link ul li{
+        float: none;
+        font-size: 20px;
+    } 
+    .leftcontent{
+        float: left;
+        width: 100%;
+        padding: 0%;
+    }   
+    .Rightcontent{
+        float: left;
+        width: 100%;
+        padding-top: 2%;
+        background-color: grey;
+        height: auto;
+    }
+    .Rightcontent1 li{
+        padding-top: 2%;
+    }
+    .Rightcontent2 {
+        padding-top: 5%;
+    }
+    .Rightcontent2 p{
+        padding-top: 3%;
+    }
+    
+}
